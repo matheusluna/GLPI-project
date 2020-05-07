@@ -2,7 +2,7 @@
 <REQUEST>
   <CONTENT>
     <ACCESSLOG>
-      <LOGDATE>2020-05-07 06:57:07</LOGDATE>
+      <LOGDATE>2020-05-07 07:44:01</LOGDATE>
     </ACCESSLOG>
     <ANTIVIRUS>
       <COMPANY>AM3 Soluções</COMPANY>
@@ -161,7 +161,7 @@
       <ENCRYPT_NAME>BitLocker</ENCRYPT_NAME>
       <ENCRYPT_STATUS>No</ENCRYPT_STATUS>
       <FILESYSTEM>NTFS</FILESYSTEM>
-      <FREE>388868</FREE>
+      <FREE>388857</FREE>
       <LABEL/>
       <LETTER>C:</LETTER>
       <SERIAL>5AE5196E</SERIAL>
@@ -269,7 +269,7 @@
     </FIREWALL>
     <HARDWARE>
       <CHASSIS_TYPE>Desktop</CHASSIS_TYPE>
-      <CHECKSUM>8705</CHECKSUM>
+      <CHECKSUM>74241</CHECKSUM>
       <DEFAULTGATEWAY>192.168.0.1</DEFAULTGATEWAY>
       <DESCRIPTION>FINANCEIRO 03</DESCRIPTION>
       <DNS>192.168.0.157</DNS>
@@ -284,7 +284,7 @@
       <PROCESSORN>1</PROCESSORN>
       <PROCESSORS>3700</PROCESSORS>
       <PROCESSORT>Intel(R) Core(TM) i3-4170 CPU @ 3.70GHz</PROCESSORT>
-      <USERID>ednaelia abreu</USERID>
+      <USERID>Ednaelia Abreu</USERID>
       <UUID>03AA02FC-0414-05F7-DE06-1F0700080009</UUID>
       <VMSYSTEM>Physical</VMSYSTEM>
       <WINLANG>1046</WINLANG>
@@ -819,7 +819,7 @@
       <PRINTPROCESSOR>winprint</PRINTPROCESSOR>
       <RESOLUTION>600x600</RESOLUTION>
       <SHARED>0</SHARED>
-      <STATUS>Idle</STATUS>
+      <STATUS>Unknown</STATUS>
     </PRINTERS>
     <PRINTERS>
       <COMMENT>visit http://j.mp/the_sz</COMMENT>
@@ -1218,12 +1218,12 @@
       <ARCH>i586</ARCH>
       <FROM>registry</FROM>
       <GUID>Google Chrome</GUID>
-      <INSTALLDATE>30/04/2020</INSTALLDATE>
+      <INSTALLDATE>07/05/2020</INSTALLDATE>
       <NAME>Google Chrome</NAME>
       <PUBLISHER>Google LLC</PUBLISHER>
       <SYSTEM_CATEGORY>application</SYSTEM_CATEGORY>
-      <UNINSTALL_STRING>"C:\Program Files (x86)\Google\Chrome\Application\81.0.4044.129\Installer\setup.exe" --uninstall --system-level --verbose-logging</UNINSTALL_STRING>
-      <VERSION>81.0.4044.129</VERSION>
+      <UNINSTALL_STRING>"C:\Program Files (x86)\Google\Chrome\Application\81.0.4044.138\Installer\setup.exe" --uninstall --system-level --verbose-logging</UNINSTALL_STRING>
+      <VERSION>81.0.4044.138</VERSION>
     </SOFTWARES>
     <SOFTWARES>
       <ARCH>i586</ARCH>
@@ -2078,7 +2078,7 @@
     </USBDEVICES>
     <USERS>
       <DOMAIN>GRUPOCENTRALLAB</DOMAIN>
-      <LOGIN>ednaelia abreu</LOGIN>
+      <LOGIN>Ednaelia Abreu</LOGIN>
     </USERS>
     <VERSIONCLIENT>FusionInventory-Agent_v2.5.2</VERSIONCLIENT>
     <VERSIONPROVIDER>

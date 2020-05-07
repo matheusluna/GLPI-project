@@ -937,3 +937,11 @@ css/palettes/premiumred is new, loading  {"user":"2@glpi","mem_usage":"0.002\", 
   inc/auth.class.php:786                             
   front/login.php:84                                 Auth->login()
   {"user":"@glpi"} 
+[2020-05-07 07:30:07] glpiphplog.DEBUG: Html::compileScss() in /var/www/html/inc/html.class.php line 6828
+css/styles is new, loading  {"user":"2@glpi"} 
+[2020-05-07 07:30:07] glpiphplog.DEBUG: Html::compileScss() in /var/www/html/inc/html.class.php line 6828
+css/palettes/premiumred is new, loading  {"user":"2@glpi","mem_usage":"0.033\", 1.41Mio)"} 
+[2020-05-07 07:34:22] glpiphplog.DEBUG: Html::compileScss() in /var/www/html/inc/html.class.php line 6828
+css/styles is new, loading  {"user":"2@glpi"} 
+[2020-05-07 07:34:22] glpiphplog.DEBUG: Html::compileScss() in /var/www/html/inc/html.class.php line 6828
+css/palettes/premiumred is new, loading  {"user":"2@glpi","mem_usage":"0.002\", 1.41Mio)"} 
