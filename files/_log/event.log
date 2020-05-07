@@ -1,0 +1,142 @@
+2020-03-10 08:02:05 [@glpi]
+[login] 3: glpi fez login no IP 192.168.0.47
+2020-03-10 14:59:43 [@glpi]
+[login] 3: Login falhou para Tiago leite no IP 192.168.0.113
+2020-03-10 14:59:58 [@glpi]
+[login] 3: Login falhou para Tiago leite no IP 192.168.0.113
+2020-03-10 15:02:58 [@glpi]
+[login] 3: glpi fez login no IP 192.168.0.47
+2020-03-10 15:23:30 [@glpi]
+[login] 3: Login falhou para NORMAL no IP 192.168.0.47
+2020-03-10 15:24:01 [@glpi]
+[login] 3: normal fez login no IP 192.168.0.47
+2020-03-10 15:24:53 [@glpi]
+[login] 3: post-only fez login no IP 192.168.0.47
+2020-03-10 15:25:18 [@glpi]
+[login] 3: tech fez login no IP 192.168.0.47
+2020-03-10 15:27:12 [@glpi]
+[login] 3: glpi fez login no IP 192.168.0.47
+2020-03-13 08:09:28 [@glpi]
+[login] 3: glpi fez login no IP 192.168.0.113
+2020-03-16 06:50:29 [@glpi]
+[login] 3: glpi fez login no IP 192.168.0.113
+2020-03-16 09:37:09 [@glpi]
+[login] 3: glpi fez login no IP 192.168.0.113
+2020-03-16 10:02:52 [@glpi]
+[login] 3: Login falhou para glpi no IP 192.168.0.149
+2020-03-16 10:03:23 [@glpi]
+[login] 3: glpi fez login no IP 192.168.0.149
+2020-03-16 10:13:49 [@glpi]
+[login] 3: glpi fez login no IP 192.168.0.149
+2020-03-18 10:11:29 [@glpi]
+[login] 3: jarbas teixeira fez login no IP 192.168.0.149
+2020-03-18 13:13:23 [@glpi]
+[login] 3: Login falhou para Matheus luna no IP 192.168.0.149
+2020-03-18 13:27:59 [@glpi]
+[login] 3: Login falhou para glpi no IP 192.168.0.149
+2020-03-18 13:28:25 [@glpi]
+[login] 3: glpi fez login no IP 192.168.0.149
+2020-03-18 13:29:55 [@glpi]
+[login] 3: Matheus Luna fez login no IP 192.168.0.113
+2020-03-18 16:55:03 [@glpi]
+[login] 3: elaido alves fez login no IP 192.168.0.112
+2020-03-19 08:51:41 [@glpi]
+[login] 3: Tiago leite fez login no IP 192.168.0.47
+2020-03-20 09:45:16 [@glpi]
+[login] 3: Login falhou para glpi no IP 192.168.0.8
+2020-03-20 09:45:40 [@glpi]
+[login] 3: glpi fez login no IP 192.168.0.8
+2020-03-20 10:02:16 [@glpi]
+[login] 3: glpi fez login no IP 192.168.0.49
+2020-03-20 10:31:10 [@glpi]
+[login] 3: Login falhou para glpi no IP 192.168.0.63
+2020-03-20 10:31:31 [@glpi]
+[login] 3: glpi fez login no IP 192.168.0.63
+2020-03-20 10:46:13 [@glpi]
+[login] 3: glpi fez login no IP 192.168.0.250
+2020-03-20 11:01:33 [@glpi]
+[login] 3: glpi fez login no IP 192.168.0.114
+2020-03-25 07:20:56 [@glpi]
+[login] 3: Login falhou para  no IP 192.168.0.149
+2020-03-25 07:21:28 [@glpi]
+[login] 3: jarbas teixeira fez login no IP 192.168.0.149
+2020-03-25 07:24:37 [@glpi]
+[login] 3: Login falhou para glpi no IP 192.168.0.149
+2020-03-25 07:25:05 [@glpi]
+[login] 3: Login falhou para glpi no IP 192.168.0.149
+2020-03-25 07:25:24 [@glpi]
+[login] 3: glpi fez login no IP 192.168.0.149
+2020-03-26 06:07:36 [@glpi]
+[login] 3: glpi fez login no IP 192.168.0.113
+2020-04-07 06:57:32 [@glpi]
+[login] 3: Login falhou para glpi no IP 192.168.0.113
+2020-04-07 06:57:49 [@glpi]
+[login] 3: glpi fez login no IP 192.168.0.113
+2020-05-04 10:37:55 [@glpi]
+[login] 3: jarbas teixeira fez login no IP 192.168.0.149
+2020-05-05 06:47:44 [@glpi]
+[login] 3: Login falhou para glpi no IP 192.168.0.113
+2020-05-05 06:48:01 [@glpi]
+[login] 3: Login falhou para glpi no IP 192.168.0.113
+2020-05-05 06:48:20 [@glpi]
+[login] 3: glpi fez login no IP 192.168.0.113
+2020-05-05 06:52:16 [@glpi]
+[login] 3: Matheus luna fez login no IP 192.168.0.113
+2020-05-05 06:53:39 [@glpi]
+[login] 3: glpi fez login no IP 192.168.0.113
+2020-05-05 07:04:22 [@glpi]
+[login] 3: Matheus luna fez login no IP 192.168.0.113
+2020-05-05 07:10:06 [@glpi]
+[login] 3: glpi fez login no IP 192.168.0.113
+2020-05-05 07:31:43 [@glpi]
+[login] 3: Matheus luna fez login no IP 192.168.0.113
+2020-05-05 07:35:04 [@glpi]
+[login] 3: glpi fez login no IP 192.168.0.113
+2020-05-05 07:39:37 [@glpi]
+[login] 3: Matheus luna fez login no IP 192.168.0.113
+2020-05-05 07:40:26 [@glpi]
+[login] 3: glpi fez login no IP 192.168.0.113
+2020-05-05 07:43:03 [@glpi]
+[login] 3: Matheus luna fez login no IP 192.168.0.113
+2020-05-05 07:45:38 [@glpi]
+[login] 3: glpi fez login no IP 192.168.0.113
+2020-05-05 07:46:46 [@glpi]
+[login] 3: Matheus luna fez login no IP 192.168.0.113
+2020-05-05 07:47:48 [@glpi]
+[login] 3: Matheus luna fez login no IP 192.168.0.113
+2020-05-05 07:52:41 [@glpi]
+[login] 3: Login falhou para Tiago leite no IP 192.168.0.47
+2020-05-05 07:52:53 [@glpi]
+[login] 3: Tiago leite fez login no IP 192.168.0.47
+2020-05-05 08:14:53 [@glpi]
+[login] 3: glpi fez login no IP 192.168.0.113
+2020-05-05 08:18:31 [@glpi]
+[login] 3: Matheus luna fez login no IP 192.168.0.113
+2020-05-05 08:23:56 [@glpi]
+[login] 3: glpi fez login no IP 192.168.0.113
+2020-05-05 10:23:04 [@glpi]
+[login] 3: glpi fez login no IP 192.168.0.113
+2020-05-05 15:58:55 [@glpi]
+[login] 3: jarbas teixeira fez login no IP 192.168.0.149
+2020-05-05 16:03:31 [@glpi]
+[login] 3: Login falhou para gllpi no IP 192.168.0.149
+2020-05-05 16:03:56 [@glpi]
+[login] 3: glpi fez login no IP 192.168.0.149
+2020-05-06 06:22:11 [@glpi]
+[login] 3: glpi fez login no IP 192.168.0.113
+2020-05-06 07:31:32 [@glpi]
+[login] 3: Matheus luna fez login no IP 192.168.0.113
+2020-05-06 07:32:07 [@glpi]
+[login] 3: glpi fez login no IP 192.168.0.113
+2020-05-06 08:07:00 [@glpi]
+[login] 3: Matheus luna fez login no IP 192.168.0.113
+2020-05-06 08:07:58 [@glpi]
+[login] 3: Login falhou para glpi no IP 192.168.0.113
+2020-05-06 08:08:17 [@glpi]
+[login] 3: glpi fez login no IP 192.168.0.113
+2020-05-07 06:24:19 [@glpi]
+[login] 3: Login falhou para glpi no IP 192.168.0.113
+2020-05-07 06:24:39 [@glpi]
+[login] 3: glpi fez login no IP 192.168.0.113
+2020-05-07 06:38:14 [@glpi]
+[login] 3: glpi fez login no IP 192.168.0.113

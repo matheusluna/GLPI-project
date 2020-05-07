@@ -1,0 +1,939 @@
+[2020-03-10 07:39:08] glpiphplog.WARNING: Test logger  
+[2020-03-10 07:50:23] glpiphplog.WARNING: Test logger  
+[2020-03-10 07:51:30] glpiphplog.WARNING: Test logger  
+[2020-03-10 08:01:46] glpiphplog.DEBUG: Html::compileScss() in /var/www/html/inc/html.class.php line 6828
+css/styles is new, loading  {"user":"@glpi"} 
+[2020-03-10 08:01:46] glpiphplog.DEBUG: Html::compileScss() in /var/www/html/inc/html.class.php line 6828
+css/palettes/auror is new, loading  {"user":"@glpi","mem_usage":"0.001\", 1.06Mio)"} 
+[2020-03-10 11:05:03] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Notice(8): Undefined variable: cron_status
+  Backtrace :
+  plugins/fusioninventory/inc/agent.class.php:1250   
+  inc/crontask.class.php:829                         PluginFusioninventoryAgent::cronCleanoldagents()
+  front/cron.php:83                                  CronTask::launch()
+  {"user":"@glpi"} 
+[2020-03-10 15:28:20] glpiphplog.WARNING: Test logger  
+[2020-03-10 15:29:33] glpiphplog.WARNING: Test logger  
+[2020-03-10 15:30:16] glpiphplog.WARNING: Test logger  
+[2020-03-10 15:30:59] glpiphplog.WARNING: Test logger  
+[2020-03-10 15:32:23] glpiphplog.WARNING: Test logger  
+[2020-03-10 15:32:42] glpiphplog.WARNING: Test logger  
+[2020-03-10 15:32:44] glpiphplog.WARNING: Test logger  
+[2020-03-10 15:32:47] glpiphplog.WARNING: Test logger  
+[2020-03-10 15:33:13] glpiphplog.WARNING: Test logger  
+[2020-03-10 15:35:53] glpiphplog.WARNING: Test logger  
+[2020-03-10 15:36:14] glpiphplog.WARNING: Test logger  
+[2020-03-11 11:05:02] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Notice(8): Undefined variable: cron_status
+  Backtrace :
+  plugins/fusioninventory/inc/agent.class.php:1250   
+  inc/crontask.class.php:829                         PluginFusioninventoryAgent::cronCleanoldagents()
+  front/cron.php:83                                  CronTask::launch()
+  {"user":"@glpi"} 
+[2020-03-12 11:05:02] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Notice(8): Undefined variable: cron_status
+  Backtrace :
+  plugins/fusioninventory/inc/agent.class.php:1250   
+  inc/crontask.class.php:829                         PluginFusioninventoryAgent::cronCleanoldagents()
+  front/cron.php:83                                  CronTask::launch()
+  {"user":"@glpi"} 
+[2020-03-13 11:05:02] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Notice(8): Undefined variable: cron_status
+  Backtrace :
+  plugins/fusioninventory/inc/agent.class.php:1250   
+  inc/crontask.class.php:829                         PluginFusioninventoryAgent::cronCleanoldagents()
+  front/cron.php:83                                  CronTask::launch()
+  {"user":"@glpi"} 
+[2020-03-14 11:05:02] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Notice(8): Undefined variable: cron_status
+  Backtrace :
+  plugins/fusioninventory/inc/agent.class.php:1250   
+  inc/crontask.class.php:829                         PluginFusioninventoryAgent::cronCleanoldagents()
+  front/cron.php:83                                  CronTask::launch()
+  {"user":"@glpi"} 
+[2020-03-15 11:05:02] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Notice(8): Undefined variable: cron_status
+  Backtrace :
+  plugins/fusioninventory/inc/agent.class.php:1250   
+  inc/crontask.class.php:829                         PluginFusioninventoryAgent::cronCleanoldagents()
+  front/cron.php:83                                  CronTask::launch()
+  {"user":"@glpi"} 
+[2020-03-16 08:27:20] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2593                        ldap_bind()
+  inc/authldap.class.php:1461                        AuthLDAP::connectToServer()
+  front/authldap.form.php:51                         AuthLDAP::testLDAPConnection()
+  {"user":"2@glpi"} 
+[2020-03-16 08:28:05] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2593                        ldap_bind()
+  inc/authldap.class.php:1461                        AuthLDAP::connectToServer()
+  front/authldap.form.php:70                         AuthLDAP::testLDAPConnection()
+  {"user":"2@glpi"} 
+[2020-03-16 09:29:22] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Operations error
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3844                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1511                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3397                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:66                           AuthLDAP::searchUser()
+  {"user":"2@glpi"} 
+[2020-03-16 09:30:01] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Bad search filter
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  scripts/ldap_mass_sync.php:155                     AuthLDAP::getAllUsers()
+  scripts/ldap_mass_sync.php:116                     import()
+  {"user":"@glpi"} 
+[2020-03-16 09:30:01] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Bad search filter
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  scripts/ldap_mass_sync.php:155                     AuthLDAP::getAllUsers()
+  scripts/ldap_mass_sync.php:116                     import()
+  {"user":"@glpi","mem_usage":"0.004\", 7.37Mio)"} 
+[2020-03-16 09:32:23] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Operations error
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3844                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1511                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3397                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:66                           AuthLDAP::searchUser()
+  {"user":"2@glpi"} 
+[2020-03-16 09:33:00] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Operations error
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3844                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1511                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3397                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:66                           AuthLDAP::searchUser()
+  {"user":"2@glpi"} 
+[2020-03-16 09:33:01] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Operations error
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3844                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1511                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3397                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:66                           AuthLDAP::searchUser()
+  {"user":"2@glpi"} 
+[2020-03-16 09:33:07] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Operations error
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3844                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1511                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3397                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:66                           AuthLDAP::searchUser()
+  {"user":"2@glpi"} 
+[2020-03-16 09:33:12] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Operations error
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3844                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1511                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3397                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:66                           AuthLDAP::searchUser()
+  {"user":"2@glpi"} 
+[2020-03-16 09:33:48] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Operations error
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3844                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1511                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3397                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:66                           AuthLDAP::searchUser()
+  {"user":"2@glpi"} 
+[2020-03-16 09:35:19] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Operations error
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3844                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1511                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3397                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:66                           AuthLDAP::searchUser()
+  {"user":"2@glpi"} 
+[2020-03-16 09:35:24] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Operations error
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3844                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1511                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3397                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:66                           AuthLDAP::searchUser()
+  {"user":"2@glpi"} 
+[2020-03-16 09:35:25] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Operations error
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3844                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1511                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3397                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:66                           AuthLDAP::searchUser()
+  {"user":"2@glpi"} 
+[2020-03-16 09:35:35] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Bad search filter
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3844                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1511                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3397                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:66                           AuthLDAP::searchUser()
+  {"user":"2@glpi"} 
+[2020-03-16 09:35:50] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Operations error
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3844                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1511                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3397                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:66                           AuthLDAP::searchUser()
+  {"user":"2@glpi"} 
+[2020-03-16 09:37:24] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Operations error
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3844                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1511                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3397                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:66                           AuthLDAP::searchUser()
+  {"user":"2@glpi"} 
+[2020-03-16 09:37:27] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Operations error
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3844                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1511                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3397                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:66                           AuthLDAP::searchUser()
+  {"user":"2@glpi"} 
+[2020-03-16 09:37:28] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Operations error
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3844                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1511                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3397                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:66                           AuthLDAP::searchUser()
+  {"user":"2@glpi"} 
+[2020-03-16 09:37:28] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Operations error
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3844                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1511                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3397                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:66                           AuthLDAP::searchUser()
+  {"user":"2@glpi"} 
+[2020-03-16 09:37:34] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Operations error
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3844                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1511                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3397                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:66                           AuthLDAP::searchUser()
+  {"user":"2@glpi"} 
+[2020-03-16 09:38:49] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Operations error
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3844                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1511                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3397                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:66                           AuthLDAP::searchUser()
+  {"user":"2@glpi"} 
+[2020-03-16 09:38:54] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Operations error
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3844                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1511                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3397                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:66                           AuthLDAP::searchUser()
+  {"user":"2@glpi"} 
+[2020-03-16 09:39:12] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Operations error
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3844                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1511                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3397                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:66                           AuthLDAP::searchUser()
+  {"user":"2@glpi"} 
+[2020-03-16 09:39:13] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Operations error
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3844                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1511                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3397                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:66                           AuthLDAP::searchUser()
+  {"user":"2@glpi"} 
+[2020-03-16 09:39:13] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Operations error
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3844                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1511                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3397                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:66                           AuthLDAP::searchUser()
+  {"user":"2@glpi"} 
+[2020-03-16 09:39:14] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Operations error
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3844                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1511                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3397                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:66                           AuthLDAP::searchUser()
+  {"user":"2@glpi"} 
+[2020-03-16 10:00:01] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Bad search filter
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  scripts/ldap_mass_sync.php:155                     AuthLDAP::getAllUsers()
+  scripts/ldap_mass_sync.php:116                     import()
+  {"user":"@glpi"} 
+[2020-03-16 10:00:01] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Bad search filter
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  scripts/ldap_mass_sync.php:155                     AuthLDAP::getAllUsers()
+  scripts/ldap_mass_sync.php:116                     import()
+  {"user":"@glpi","mem_usage":"0.004\", 7.37Mio)"} 
+[2020-03-16 10:07:56] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Bad search filter
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3844                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1511                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3397                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:66                           AuthLDAP::searchUser()
+  {"user":"2@glpi"} 
+[2020-03-16 10:07:58] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Bad search filter
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3844                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1511                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3397                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:66                           AuthLDAP::searchUser()
+  {"user":"2@glpi"} 
+[2020-03-16 10:07:59] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Bad search filter
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3844                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1511                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3397                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:66                           AuthLDAP::searchUser()
+  {"user":"2@glpi"} 
+[2020-03-16 10:07:59] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Bad search filter
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3844                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1511                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3397                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:66                           AuthLDAP::searchUser()
+  {"user":"2@glpi"} 
+[2020-03-16 10:08:07] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Bad search filter
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3844                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1511                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3397                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:66                           AuthLDAP::searchUser()
+  {"user":"2@glpi"} 
+[2020-03-16 10:08:24] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Bad search filter
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3844                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1511                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3397                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:66                           AuthLDAP::searchUser()
+  {"user":"2@glpi"} 
+[2020-03-16 10:08:25] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Bad search filter
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3844                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1511                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3397                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:66                           AuthLDAP::searchUser()
+  {"user":"2@glpi"} 
+[2020-03-16 10:08:26] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Bad search filter
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3844                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1511                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3397                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:66                           AuthLDAP::searchUser()
+  {"user":"2@glpi"} 
+[2020-03-16 10:08:26] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Bad search filter
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3844                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1511                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3397                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:66                           AuthLDAP::searchUser()
+  {"user":"2@glpi"} 
+[2020-03-16 10:08:42] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Bad search filter
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3844                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1511                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3397                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:66                           AuthLDAP::searchUser()
+  {"user":"2@glpi"} 
+[2020-03-16 10:10:02] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Bad search filter
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3844                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1511                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3397                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:66                           AuthLDAP::searchUser()
+  {"user":"2@glpi"} 
+[2020-03-16 10:10:03] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Bad search filter
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3844                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1511                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3397                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:66                           AuthLDAP::searchUser()
+  {"user":"2@glpi"} 
+[2020-03-16 10:13:21] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Bad search filter
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2884                        ldap_search()
+  inc/auth.class.php:232                             AuthLDAP::searchUserDn()
+  inc/authldap.class.php:2741                        Auth->connection_ldap()
+  inc/authldap.class.php:2809                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:757                             AuthLDAP::tryLdapAuth()
+  front/login.php:84                                 Auth->login()
+  {"user":"@glpi"} 
+[2020-03-16 10:14:36] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Bad search filter
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3844                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1511                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3397                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:66                           AuthLDAP::searchUser()
+  {"user":"2@glpi"} 
+[2020-03-16 10:14:39] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Bad search filter
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3844                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1511                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3397                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:66                           AuthLDAP::searchUser()
+  {"user":"2@glpi"} 
+[2020-03-16 10:14:46] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Bad search filter
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3844                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1511                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3397                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:66                           AuthLDAP::searchUser()
+  {"user":"2@glpi"} 
+[2020-03-16 10:14:47] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Bad search filter
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3844                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1511                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3397                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:66                           AuthLDAP::searchUser()
+  {"user":"2@glpi"} 
+[2020-03-16 10:14:47] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Bad search filter
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3844                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1511                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3397                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:66                           AuthLDAP::searchUser()
+  {"user":"2@glpi"} 
+[2020-03-16 10:14:48] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Bad search filter
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3844                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1511                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3397                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:66                           AuthLDAP::searchUser()
+  {"user":"2@glpi"} 
+[2020-03-16 10:16:37] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Bad search filter
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3844                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1511                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3397                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:66                           AuthLDAP::searchUser()
+  {"user":"2@glpi"} 
+[2020-03-16 10:18:10] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Bad search filter
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3844                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1511                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3397                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:66                           AuthLDAP::searchUser()
+  {"user":"2@glpi"} 
+[2020-03-16 10:30:01] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Bad search filter
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  scripts/ldap_mass_sync.php:155                     AuthLDAP::getAllUsers()
+  scripts/ldap_mass_sync.php:116                     import()
+  {"user":"@glpi"} 
+[2020-03-16 10:30:01] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Bad search filter
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  scripts/ldap_mass_sync.php:155                     AuthLDAP::getAllUsers()
+  scripts/ldap_mass_sync.php:116                     import()
+  {"user":"@glpi","mem_usage":"0.005\", 7.37Mio)"} 
+[2020-03-16 10:30:29] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Bad search filter
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3844                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1511                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3397                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:66                           AuthLDAP::searchUser()
+  {"user":"2@glpi"} 
+[2020-03-16 11:00:01] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Bad search filter
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  scripts/ldap_mass_sync.php:155                     AuthLDAP::getAllUsers()
+  scripts/ldap_mass_sync.php:116                     import()
+  {"user":"@glpi"} 
+[2020-03-16 11:00:01] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Bad search filter
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  scripts/ldap_mass_sync.php:155                     AuthLDAP::getAllUsers()
+  scripts/ldap_mass_sync.php:116                     import()
+  {"user":"@glpi","mem_usage":"0.004\", 7.37Mio)"} 
+[2020-03-16 11:05:03] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Notice(8): Undefined variable: cron_status
+  Backtrace :
+  plugins/fusioninventory/inc/agent.class.php:1250   
+  inc/crontask.class.php:829                         PluginFusioninventoryAgent::cronCleanoldagents()
+  front/cron.php:83                                  CronTask::launch()
+  {"user":"@glpi"} 
+[2020-03-16 11:30:01] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Bad search filter
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  scripts/ldap_mass_sync.php:155                     AuthLDAP::getAllUsers()
+  scripts/ldap_mass_sync.php:116                     import()
+  {"user":"@glpi"} 
+[2020-03-16 11:30:01] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Bad search filter
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  scripts/ldap_mass_sync.php:155                     AuthLDAP::getAllUsers()
+  scripts/ldap_mass_sync.php:116                     import()
+  {"user":"@glpi","mem_usage":"0.005\", 7.37Mio)"} 
+[2020-03-16 12:00:01] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Bad search filter
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  scripts/ldap_mass_sync.php:155                     AuthLDAP::getAllUsers()
+  scripts/ldap_mass_sync.php:116                     import()
+  {"user":"@glpi"} 
+[2020-03-16 12:00:01] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Bad search filter
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  scripts/ldap_mass_sync.php:155                     AuthLDAP::getAllUsers()
+  scripts/ldap_mass_sync.php:116                     import()
+  {"user":"@glpi","mem_usage":"0.004\", 7.37Mio)"} 
+[2020-03-16 12:30:01] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Bad search filter
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  scripts/ldap_mass_sync.php:155                     AuthLDAP::getAllUsers()
+  scripts/ldap_mass_sync.php:116                     import()
+  {"user":"@glpi"} 
+[2020-03-16 12:30:01] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Bad search filter
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  scripts/ldap_mass_sync.php:155                     AuthLDAP::getAllUsers()
+  scripts/ldap_mass_sync.php:116                     import()
+  {"user":"@glpi","mem_usage":"0.004\", 7.37Mio)"} 
+[2020-03-16 13:00:01] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Bad search filter
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  scripts/ldap_mass_sync.php:155                     AuthLDAP::getAllUsers()
+  scripts/ldap_mass_sync.php:116                     import()
+  {"user":"@glpi"} 
+[2020-03-16 13:00:01] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Bad search filter
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  scripts/ldap_mass_sync.php:155                     AuthLDAP::getAllUsers()
+  scripts/ldap_mass_sync.php:116                     import()
+  {"user":"@glpi","mem_usage":"0.007\", 7.37Mio)"} 
+[2020-03-16 13:06:10] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Bad search filter
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3844                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1511                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3397                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:66                           AuthLDAP::searchUser()
+  {"user":"2@glpi"} 
+[2020-03-16 13:06:16] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Bad search filter
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3844                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1511                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3397                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:66                           AuthLDAP::searchUser()
+  {"user":"2@glpi"} 
+[2020-03-16 13:06:20] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Bad search filter
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3844                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1511                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3397                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:66                           AuthLDAP::searchUser()
+  {"user":"2@glpi"} 
+[2020-03-16 13:07:30] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Bad search filter
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3844                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1511                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3397                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:66                           AuthLDAP::searchUser()
+  {"user":"2@glpi"} 
+[2020-03-16 13:08:45] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Bad search filter
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3844                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1511                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3397                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:66                           AuthLDAP::searchUser()
+  {"user":"2@glpi"} 
+[2020-03-16 13:08:46] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Bad search filter
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3844                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1511                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3397                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:66                           AuthLDAP::searchUser()
+  {"user":"2@glpi"} 
+[2020-03-16 13:09:10] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Bad search filter
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3844                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1511                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3397                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:66                           AuthLDAP::searchUser()
+  {"user":"2@glpi"} 
+[2020-03-16 13:09:12] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Bad search filter
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3844                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1511                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3397                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:66                           AuthLDAP::searchUser()
+  {"user":"2@glpi"} 
+[2020-03-16 13:09:13] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_search(): Search: Bad search filter
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1661                        ldap_search()
+  inc/authldap.class.php:1807                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:3844                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:1511                        AuthLDAP::getUsers()
+  inc/authldap.class.php:3397                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:66                           AuthLDAP::searchUser()
+  {"user":"2@glpi"} 
+[2020-03-17 08:21:48] glpiphplog.DEBUG: Html::compileScss() in /var/www/html/inc/html.class.php line 6828
+css/styles is new, loading  {"user":"2@glpi"} 
+[2020-03-17 08:21:48] glpiphplog.DEBUG: Html::compileScss() in /var/www/html/inc/html.class.php line 6828
+css/palettes/premiumred is new, loading  {"user":"2@glpi","mem_usage":"0.002\", 1.43Mio)"} 
+[2020-03-17 11:05:03] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Notice(8): Undefined variable: cron_status
+  Backtrace :
+  plugins/fusioninventory/inc/agent.class.php:1250   
+  inc/crontask.class.php:829                         PluginFusioninventoryAgent::cronCleanoldagents()
+  front/cron.php:83                                  CronTask::launch()
+  {"user":"@glpi"} 
+[2020-03-17 15:16:00] glpiphplog.NOTICE: Dropdown::show() in /var/www/html/inc/dropdown.class.php line 84
+Using a string in condition option is deprecated.  {"user":"2@glpi"} 
+[2020-03-17 15:16:24] glpiphplog.NOTICE: Dropdown::show() in /var/www/html/inc/dropdown.class.php line 84
+Using a string in condition option is deprecated.  {"user":"2@glpi"} 
+[2020-03-17 15:16:24] glpiphplog.NOTICE: Dropdown::addNewCondition() in /var/www/html/inc/dropdown.class.php line 284
+Using a string in dropdown condition is deprecated.  {"user":"2@glpi","mem_usage":"0.001\", 2.17Mio)"} 
+[2020-03-17 15:16:26] glpiphplog.NOTICE: Dropdown::getDropdownValue() in /var/www/html/inc/dropdown.class.php line 2320
+Please no longer use raw SQL for conditions!  {"user":"2@glpi"} 
+[2020-03-17 15:16:39] glpiphplog.NOTICE: Dropdown::show() in /var/www/html/inc/dropdown.class.php line 84
+Using a string in condition option is deprecated.  {"user":"2@glpi"} 
+[2020-03-18 11:05:02] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Notice(8): Undefined variable: cron_status
+  Backtrace :
+  plugins/fusioninventory/inc/agent.class.php:1250   
+  inc/crontask.class.php:829                         PluginFusioninventoryAgent::cronCleanoldagents()
+  front/cron.php:83                                  CronTask::launch()
+  {"user":"@glpi"} 
+[2020-03-18 13:13:23] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/auth.class.php:234                             ldap_bind()
+  inc/authldap.class.php:2741                        Auth->connection_ldap()
+  inc/authldap.class.php:2809                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:757                             AuthLDAP::tryLdapAuth()
+  front/login.php:84                                 Auth->login()
+  {"user":"@glpi"} 
+[2020-03-19 11:05:02] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Notice(8): Undefined variable: cron_status
+  Backtrace :
+  plugins/fusioninventory/inc/agent.class.php:1250   
+  inc/crontask.class.php:829                         PluginFusioninventoryAgent::cronCleanoldagents()
+  front/cron.php:83                                  CronTask::launch()
+  {"user":"@glpi"} 
+[2020-03-20 09:45:16] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Notice(8): Undefined index: id
+  Backtrace :
+  inc/auth.class.php:786                             
+  front/login.php:84                                 Auth->login()
+  {"user":"@glpi"} 
+[2020-03-20 10:31:10] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Notice(8): Undefined index: id
+  Backtrace :
+  inc/auth.class.php:786                             
+  front/login.php:84                                 Auth->login()
+  {"user":"@glpi"} 
+[2020-03-20 11:05:03] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Notice(8): Undefined variable: cron_status
+  Backtrace :
+  plugins/fusioninventory/inc/agent.class.php:1250   
+  inc/crontask.class.php:829                         PluginFusioninventoryAgent::cronCleanoldagents()
+  front/cron.php:83                                  CronTask::launch()
+  {"user":"@glpi"} 
+[2020-03-25 07:25:05] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Notice(8): Undefined index: id
+  Backtrace :
+  inc/auth.class.php:786                             
+  front/login.php:84                                 Auth->login()
+  {"user":"@glpi"} 
+[2020-03-26 06:48:54] glpiphplog.DEBUG: Html::compileScss() in /var/www/html/inc/html.class.php line 6828
+css/styles is new, loading  {"user":"2@glpi"} 
+[2020-03-26 06:48:54] glpiphplog.DEBUG: Html::compileScss() in /var/www/html/inc/html.class.php line 6828
+css/palettes/premiumred is new, loading  {"user":"2@glpi","mem_usage":"0.002\", 1.43Mio)"} 
+[2020-04-07 06:57:32] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Notice(8): Undefined index: id
+  Backtrace :
+  inc/auth.class.php:786                             
+  front/login.php:84                                 Auth->login()
+  {"user":"@glpi"} 
+[2020-05-05 06:48:01] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Notice(8): Undefined index: id
+  Backtrace :
+  inc/auth.class.php:786                             
+  front/login.php:84                                 Auth->login()
+  {"user":"@glpi"} 
+[2020-05-05 06:59:01] glpiphplog.DEBUG: Html::compileScss() in /var/www/html/inc/html.class.php line 6828
+css/styles is new, loading  {"user":"2@glpi"} 
+[2020-05-05 06:59:01] glpiphplog.DEBUG: Html::compileScss() in /var/www/html/inc/html.class.php line 6828
+css/palettes/premiumred is new, loading  {"user":"2@glpi","mem_usage":"0.002\", 1.35Mio)"} 
+[2020-05-05 07:52:41] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/auth.class.php:234                             ldap_bind()
+  inc/authldap.class.php:2741                        Auth->connection_ldap()
+  inc/authldap.class.php:2809                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:757                             AuthLDAP::tryLdapAuth()
+  front/login.php:84                                 Auth->login()
+  {"user":"@glpi"} 
+[2020-05-05 16:09:48] glpiphplog.WARNING: Test logger  
+[2020-05-05 16:10:04] glpiphplog.WARNING: Test logger  
+[2020-05-06 07:01:01] glpiphplog.DEBUG: Html::compileScss() in /var/www/html/inc/html.class.php line 6828
+css/styles is new, loading  {"user":"2@glpi"} 
+[2020-05-06 07:01:01] glpiphplog.DEBUG: Html::compileScss() in /var/www/html/inc/html.class.php line 6828
+css/palettes/premiumred is new, loading  {"user":"2@glpi","mem_usage":"0.002\", 1.38Mio)"} 
+[2020-05-06 08:07:58] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Notice(8): Undefined index: id
+  Backtrace :
+  inc/auth.class.php:786                             
+  front/login.php:84                                 Auth->login()
+  {"user":"@glpi"} 
+[2020-05-07 06:24:19] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 658
+  *** PHP Notice(8): Undefined index: id
+  Backtrace :
+  inc/auth.class.php:786                             
+  front/login.php:84                                 Auth->login()
+  {"user":"@glpi"} 
