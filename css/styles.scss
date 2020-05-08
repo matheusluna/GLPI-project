@@ -1739,12 +1739,12 @@ img.picture_square {
 }
 
 .calendrier_mois {
-   font-family: Verdana, Arial, Sans, sans-serif;
+   font-family: 'Source Sans Pro', sans-serif;
    font-size: 10px;
 }
 
 .calendrier_jour {
-   font-family: arial,helvetica,sans-serif;
+   font-family: 'Source Sans Pro', sans-serif;
    font-size: 14px;
    color: black;
 }
@@ -2516,7 +2516,7 @@ a.icon_nav_move {
 /* ################--------------- box (redirect and other)  ---------------#################### */
 
 .ui-widget-content.message_after_redirect {
-   font-family: "Myriad Pro","Myriad Web","Tahoma","Helvetica","Arial",sans-serif;
+   font-family: 'Source Sans Pro', sans-serif;
    color: #393939;
    font-size: 11px;
    background: #DFDFDF;
@@ -2657,7 +2657,7 @@ a.icon_nav_move {
    }
 
    .login_input:before {
-      font-family: 'Font Awesome\ 5 Free';
+      font-family: 'Source Sans Pro', sans-serif;
       left: 8px;
       position: absolute;
       top: 3px;
@@ -2713,7 +2713,7 @@ a.icon_nav_move {
 }
 
 .sous_logo {
-   font-family: arial;
+   font-family: 'Source Sans Pro', sans-serif;
    font-size: 9px;
    color: #eeeeee;
    text-decoration: none;
@@ -2752,7 +2752,7 @@ a.icon_nav_move {
    right: 10px;
    bottom: 0px;
    font-size: 10px;
-   font-family: Verdana,Arial,Helvetica,sans-serif;
+   font-family: 'Source Sans Pro', sans-serif;
    font-weight: bold;
 
    &.home {
@@ -2853,7 +2853,7 @@ a.icon_nav_move {
          height: 22px;
          width: 150px;
          padding: 0 3px;
-         font-family: 'Bitstream Vera Sans', Verdana, Tahoma, 'Sans serif';
+         font-family: 'Source Sans Pro', sans-serif;
          font-size: 12px;
          border-radius: 3px 0px 0px 3px;
          position: relative;
@@ -2863,7 +2863,7 @@ a.icon_nav_move {
 
 #myname {
    font-size: 11px;
-   font-family: 'Bitstream Vera Sans', Verdana, Tahoma, 'Sans serif';
+   font-family: 'Source Sans Pro', sans-serif;
    margin: 0 0 .5em .5em;
    display: inline-block;
    vertical-align: bottom;
@@ -3220,7 +3220,7 @@ a.copyright {
       text-align: center;
       margin: 0;
       padding: 1px .5em;
-      font-family: helvetica,arial,sans-serif;
+      font-family: 'Source Sans Pro', sans-serif;
       font-size: 10px;
       font-weight: bold;
       background-color: #fff;
@@ -3253,7 +3253,7 @@ a.copyright {
    text-align: center;
    margin: 0;
    padding: 1px .5em;
-   font-family: helvetica,arial,sans-serif;
+   font-family: 'Source Sans Pro', sans-serif;
    font-size: 10px;
    font-weight: bold;
    background-color: #fff;
@@ -3399,7 +3399,7 @@ a.copyright {
    text-align: left;
    padding: 4px 8px;
    margin-top: -10px;
-   font-family: 'Bitstream Vera Sans', Verdana, Tahoma, 'Sans serif';
+   font-family: 'Source Sans Pro', sans-serif;
 
    .break {
       clear: both;
@@ -4155,7 +4155,7 @@ a.copyright {
 }
 
 .x-button-drop:after {
-   font-family: 'Font Awesome\ 5 Free';
+   font-family: 'Source Sans Pro', sans-serif;
    font-weight: 900;
 }
 
@@ -4283,7 +4283,7 @@ a.copyright {
 
       &:before {
          color: #929292;
-         font-family: 'Font Awesome\ 5 Free';
+         font-family: 'Source Sans Pro', sans-serif;
          padding-left: 2px;
       }
    }
@@ -4622,7 +4622,7 @@ input[type=checkbox].toggle_comments {
    }
 
    &:after {
-      font-family: 'Font Awesome\ 5 Free';
+      font-family: 'Source Sans Pro', sans-serif;
       position: relative;
       left: -15px;
       top: 1px;
@@ -5501,7 +5501,7 @@ div#viewgraph {
          left: 0;
          top: 0;
          font-size: 15px;
-         font-family: 'Font Awesome\ 5 Free';
+         font-family: 'Source Sans Pro', sans-serif;
          position: absolute;
          font-weight: 900;
       }
@@ -5720,7 +5720,7 @@ ul.indexes {
       font-size: 1em;
       color: grey;
       top: 5px;
-      font-family: 'Font Awesome\ 5 Free';
+      font-family: 'Source Sans Pro', sans-serif;
       position: absolute;
       font-weight: 900;
    }
