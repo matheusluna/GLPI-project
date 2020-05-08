@@ -39,9 +39,13 @@ $break_menu: 1055px;
 $break_tablets: 1300px;
 
 /* ################--------------- Default style  ---------------#################### */
+@font-face{
+   font-family: 'Source Sans Pro';
+   src: url(https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap);
+}
 
 body {
-   font-family: 'Bitstream Vera Sans', Verdana, Tahoma, 'Sans serif';
+   font-family: 'Source Sans Pro', sans-serif;
    font-size: 12px;
    margin: 0;
    padding: 0;
